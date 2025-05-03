@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container mx-auto sm:h-16 h-14 items-center flex justify-between px-4 gap-4">
         <Link to={"/"} className="w-1/3 sm:w-auto">
           <img
-            src={isDark ? "/logo.png" : "/logo2.png"}
+            src={`/logo.png`}
             alt="klimate logo"
             className="sm:h-14 h-12"
           />
