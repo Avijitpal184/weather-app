@@ -54,7 +54,7 @@ const CitySearch = () => {
         <Search className="w-4 h-4 mr-1" />
         Search cities...
       </Button>
-      <CommandDialog open={open} onOpenChange={setOpen}>
+      <CommandDialog open={open} onOpenChange={setOpen} >
         <CommandInput
           placeholder="Search cities..."
           value={query}
